@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        h1 span{
+            color: red;
+        }
+
+        button{
+            border-radius: 3px;
+            padding: 3px;
+        }
+        .winnig-color{
+            color: green;
+        }
+        .btn-clr{
+            color: red;
+        }
+
+        .box{
+            background: rgb(183, 131, 235);
+            margin-top: 10px;
+            padding: 15px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .boxii{
+            align-items: center;
+            background: white;
+            border-radius: 25px 5px;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container box">
+        <div>
+            <div>
+                <h1>Let's Play <span>Game!</span></h1>
+                <h1><span id="p1">0</span> to <span id="p2">0</span></h1>
+                <p>Playing to <span>5</span></p>
+            </div>
+            <div>
+                <input id="inpt" type="text" placeholder="Enter your target...">
+                <button id="btnI" class="btn-success">player 1</button>
+                <button id="btnii" class="btn-success">player 2</button>
+                <button id="btnReset" class="btn-success">Reset</button>
+            </div>
+        </div>
+        <div class="boxii">
+            <h4>Most Easy to</h4>
+            <h1>Play <span>Game!</span></h1>
+            <p>This is the most popular game and so much easy to play!<br>If you want to earn money then you can play this game...</p>
+        </div>
+       
+    </div>
+    
+
+    <script src="/main.js"></script>
+</body>
+</html>
